@@ -1,0 +1,1077 @@
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "d153bdea-ba54-4c2d-88d4-5bdaa7d82252")
+	(paper "A4")
+	(lib_symbols
+		(symbol "Landis-Gyr-Focus-AXR-SD-rescue:CC1020L"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at -5.08 1.27 0)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+				)
+			)
+			(property "Value" "CC1020L"
+				(at -1.27 -1.27 0)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at -10.16 0 0)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at -10.16 0 0)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "CC1020L_0_1"
+				(rectangle
+					(start 27.94 27.94)
+					(end -27.94 -27.94)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type background)
+					)
+				)
+			)
+			(symbol "CC1020L_1_1"
+				(pin input line
+					(at -33.02 17.78 0)
+					(length 5.08)
+					(name "PCLK"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -12.7 -33.02 90)
+					(length 5.08)
+					(name "XOSC_Q1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -7.62 -33.02 90)
+					(length 5.08)
+					(name "XOSC_Q2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "11"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -2.54 -33.02 90)
+					(length 5.08)
+					(name "AVDD"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "12"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 2.54 -33.02 90)
+					(length 5.08)
+					(name "AVDD"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "13"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 7.62 -33.02 90)
+					(length 5.08)
+					(name "LNA_EN"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "14"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 12.7 -33.02 90)
+					(length 5.08)
+					(name "PA_EN"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "15"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 17.78 -33.02 90)
+					(length 5.08)
+					(name "AVDD"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "16"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 33.02 -17.78 180)
+					(length 5.08)
+					(name "R_BIAS"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "17"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 33.02 -12.7 180)
+					(length 5.08)
+					(name "AVDD"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "18"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 33.02 -7.62 180)
+					(length 5.08)
+					(name "RF_IN"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "19"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -33.02 12.7 0)
+					(length 5.08)
+					(name "PDI"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 33.02 -2.54 180)
+					(length 5.08)
+					(name "AVDD"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "20"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 33.02 2.54 180)
+					(length 5.08)
+					(name "RF_OUT"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "21"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 33.02 7.62 180)
+					(length 5.08)
+					(name "AVDD"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "22"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 33.02 12.7 180)
+					(length 5.08)
+					(name "AVDD"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "23"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 33.02 17.78 180)
+					(length 5.08)
+					(name "VC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "24"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 17.78 33.02 270)
+					(length 5.08)
+					(name "AGND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "25"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 12.7 33.02 270)
+					(length 5.08)
+					(name "AD_REF"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "26"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 7.62 33.02 270)
+					(length 5.08)
+					(name "AVDD"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "27"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 2.54 33.02 270)
+					(length 5.08)
+					(name "CHP_OUT"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "28"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -2.54 33.02 270)
+					(length 5.08)
+					(name "AVDD"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "29"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -33.02 7.62 0)
+					(length 5.08)
+					(name "PDO"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -7.62 33.02 270)
+					(length 5.08)
+					(name "DGND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "30"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -12.7 33.02 270)
+					(length 5.08)
+					(name "DVDD"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "31"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -17.78 33.02 270)
+					(length 5.08)
+					(name "PSEL"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "32"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -33.02 2.54 0)
+					(length 5.08)
+					(name "DGND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -33.02 -2.54 0)
+					(length 5.08)
+					(name "DVDD"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -33.02 -7.62 0)
+					(length 5.08)
+					(name "DGND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -33.02 -12.7 0)
+					(length 5.08)
+					(name "DCLK"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -33.02 -17.78 0)
+					(length 5.08)
+					(name "DIO"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -17.78 -33.02 90)
+					(length 5.08)
+					(name "LOCK"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+	)
+	(wire
+		(pts
+			(xy 114.3 109.22) (xy 111.76 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "047ff78d-f2f4-469f-9c32-8a9d0d8542b9")
+	)
+	(wire
+		(pts
+			(xy 114.3 104.14) (xy 111.76 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "04f4d681-08bc-4d8a-a4df-79e3cf22f008")
+	)
+	(wire
+		(pts
+			(xy 129.54 124.46) (xy 129.54 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "226e3931-2b76-4f07-b1af-f1b7866ca092")
+	)
+	(wire
+		(pts
+			(xy 129.54 58.42) (xy 129.54 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "24072fc0-896b-4257-a3d1-ddbf1052ca95")
+	)
+	(wire
+		(pts
+			(xy 114.3 83.82) (xy 111.76 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3089af58-12e6-46aa-af61-5e7a7ed2223b")
+	)
+	(wire
+		(pts
+			(xy 129.54 55.88) (xy 125.73 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3c74eb8e-5289-4612-85f7-8b14cfe0b20d")
+	)
+	(wire
+		(pts
+			(xy 111.76 73.66) (xy 114.3 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8adeefa6-e5f0-44d7-b1b9-72842f1b25b0")
+	)
+	(wire
+		(pts
+			(xy 114.3 78.74) (xy 111.76 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a3003c70-4a1f-41ff-9882-b2ded1158481")
+	)
+	(wire
+		(pts
+			(xy 129.54 127) (xy 125.73 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ce2e7aa0-da2d-4164-a8d5-f99c28f9d2f6")
+	)
+	(text_box "Parts to add:\n1. (U39) TI RD6, 8 pin VDD switch for CC1020's power\n2. (U36) S111 Skyworks RF Amplifier\n3. (U2) S70 TX/RX RF Switch"
+		(exclude_from_sim no)
+		(at 193.04 26.67 0)
+		(size 83.82 33.02)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.524 1.524)
+			)
+			(justify left top)
+		)
+		(uuid "c48d81b7-190f-40d3-a67d-54b3a6d8e8aa")
+	)
+	(global_label "CC1020-DIO"
+		(shape input)
+		(at 111.76 109.22 180)
+		(effects
+			(font
+				(size 1.524 1.524)
+			)
+			(justify right)
+		)
+		(uuid "1cfa202a-1e41-49c6-aea2-82e5230cea03")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 111.76 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "CC1020-PCLK"
+		(shape input)
+		(at 111.76 73.66 180)
+		(effects
+			(font
+				(size 1.524 1.524)
+			)
+			(justify right)
+		)
+		(uuid "3bd8afca-5b49-40f5-aebc-9ed89be7090b")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 111.76 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "CC1020-DCLK"
+		(shape input)
+		(at 111.76 104.14 180)
+		(effects
+			(font
+				(size 1.524 1.524)
+			)
+			(justify right)
+		)
+		(uuid "3f8a4d62-6eaa-4ce0-9d3b-652db2079024")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 111.76 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "CC1020-PWR_Switch"
+		(shape input)
+		(at 191.77 31.75 180)
+		(effects
+			(font
+				(size 1.524 1.524)
+			)
+			(justify right)
+		)
+		(uuid "a823402e-243e-471e-8031-9c7c6cf3d53b")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 191.77 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "CC1020-PDI"
+		(shape input)
+		(at 111.76 78.74 180)
+		(effects
+			(font
+				(size 1.524 1.524)
+			)
+			(justify right)
+		)
+		(uuid "bde7c0bb-f419-4692-8106-6b93e3ce15a7")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 111.76 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "CC1020-LOCK"
+		(shape input)
+		(at 125.73 127 180)
+		(effects
+			(font
+				(size 1.524 1.524)
+			)
+			(justify right)
+		)
+		(uuid "ccafab67-ee98-48e6-8a50-2c919ed53243")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 125.73 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "CC1020-PDO"
+		(shape input)
+		(at 111.76 83.82 180)
+		(effects
+			(font
+				(size 1.524 1.524)
+			)
+			(justify right)
+		)
+		(uuid "d9b480f1-5a02-4e66-8a57-ac11a441f49f")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 111.76 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "CC1020-PSEL"
+		(shape input)
+		(at 125.73 55.88 180)
+		(effects
+			(font
+				(size 1.524 1.524)
+			)
+			(justify right)
+		)
+		(uuid "f28ad8ff-262c-45ef-a835-28ddfa434e8e")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 125.73 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Landis-Gyr-Focus-AXR-SD-rescue:CC1020L")
+		(at 147.32 91.44 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-000057e6e34f")
+		(property "Reference" "U25"
+			(at 142.24 90.17 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Value" "CC1020L"
+			(at 146.05 92.71 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 137.16 91.44 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 137.16 91.44 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 147.32 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "8c98d44d-8b39-42eb-ba0b-c431e3f6ebd6")
+		)
+		(pin "10"
+			(uuid "9416f820-c8b8-4e0a-b79e-f386595b1d21")
+		)
+		(pin "11"
+			(uuid "c5f8eee4-305c-4c78-852d-b5cb9a0de9f9")
+		)
+		(pin "12"
+			(uuid "ba078864-a013-4ac3-bb65-910f459f6d87")
+		)
+		(pin "13"
+			(uuid "618d32bf-5ed2-4764-b19d-fec13c25e474")
+		)
+		(pin "14"
+			(uuid "27a4746e-f3cd-46ca-93a0-1c1fc2d40d0e")
+		)
+		(pin "15"
+			(uuid "d9285ccf-0848-47b3-9193-60ad91c3b659")
+		)
+		(pin "16"
+			(uuid "d743a030-b2d7-4361-9ff3-cd9d452fdb3f")
+		)
+		(pin "17"
+			(uuid "f68ba4ec-e815-45b9-83d1-0b9e316577ce")
+		)
+		(pin "18"
+			(uuid "5ea91d84-8075-4eb1-8f42-e23d159f45f8")
+		)
+		(pin "19"
+			(uuid "f4a41a70-88a3-469a-b6ed-54296e4cf083")
+		)
+		(pin "2"
+			(uuid "53a7b0bd-9e78-4449-a29f-964d17476d36")
+		)
+		(pin "20"
+			(uuid "856a7235-5b88-4aa7-86ba-39c054d27965")
+		)
+		(pin "21"
+			(uuid "0b879c4e-98a9-404c-8782-7d2a055178c8")
+		)
+		(pin "22"
+			(uuid "bfc73c84-4a13-44e0-96e7-7484f715c1d3")
+		)
+		(pin "23"
+			(uuid "1181eb3f-6011-49cd-9fbe-4203a207a9d4")
+		)
+		(pin "24"
+			(uuid "125f6569-e47b-4134-9fcd-5d1199e446fc")
+		)
+		(pin "25"
+			(uuid "cd1277c7-f25d-4d81-9fe3-92be7a72c048")
+		)
+		(pin "26"
+			(uuid "22634e97-33bf-4dcc-b5ef-e399ae5eefd5")
+		)
+		(pin "27"
+			(uuid "86444306-176a-4ebd-b587-296d0ba09c7c")
+		)
+		(pin "28"
+			(uuid "92ef1a43-6c23-4b60-aabf-b97124f2f4e4")
+		)
+		(pin "29"
+			(uuid "e74c8713-669b-4276-9c5c-872f7d9aae86")
+		)
+		(pin "3"
+			(uuid "7cd491aa-e1c2-4bcd-be0e-f8ea0ab5742e")
+		)
+		(pin "30"
+			(uuid "dfa5e36e-e2fc-4916-a4ad-0d1879704d0f")
+		)
+		(pin "31"
+			(uuid "fdf8413b-8931-4556-a8b8-e245b600f0be")
+		)
+		(pin "32"
+			(uuid "12673219-da1d-4215-b3dc-e82715a6cdf6")
+		)
+		(pin "4"
+			(uuid "6bb12b24-d810-4094-aec0-07ce003aa823")
+		)
+		(pin "5"
+			(uuid "47d604f5-be47-430e-b3de-27ab97fd7d1e")
+		)
+		(pin "6"
+			(uuid "3c656a07-cfb4-4a33-8c67-e4e4a683d878")
+		)
+		(pin "7"
+			(uuid "81ae80be-82bf-445f-8dab-4c98b33d3801")
+		)
+		(pin "8"
+			(uuid "b1d622ed-baf2-4fef-8f53-90f90be02401")
+		)
+		(pin "9"
+			(uuid "4c5d94c0-5801-4f39-90ae-796443409a7c")
+		)
+		(instances
+			(project "Landis Gyr Focus AXR-SD_PCB-24-1082_REV-AE"
+				(path "/ea8f6901-e13c-498d-83f7-b701a5c4e46a/00000000-0000-0000-0000-000057d5e883"
+					(reference "U25")
+					(unit 1)
+				)
+			)
+		)
+	)
+)
